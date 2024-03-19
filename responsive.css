@@ -1,0 +1,216 @@
+@media (max-width: 1080px) {
+
+  
+    footer {
+
+        font-size: 12px;
+        justify-content: space-between;
+    }
+
+    footer h2 {
+        font-size: 10px;
+    }
+
+    .subscribe-box .input-box input {
+        padding: 1px 0px;
+        border: none;
+    }
+
+    .subscribe-box h4 {
+        font-size: 22px;
+    }
+
+    .enquiry-box h2,
+    .icon-box h2,
+    .subscribe-box h4 {
+        font-size: 20px;
+    }
+
+    .enquiry-box h3 {
+        font-size: 15px;
+    }
+
+    .icon-box .icon i {
+        font-size: 20px;
+    }
+}
+
+
+@media (max-width: 850px) {
+    .navbar .nav-item {
+        display: none;
+    }
+
+    .navbar .burger {
+        display: block;
+    }
+
+    .navbar .hamburger {
+        right: 0%;
+        top: 100px;
+        width: 30%;
+        height: 100vh;
+        background: #002857;
+        display: flex;
+        flex-direction: column;
+        align-items: normal;
+        list-style: none;
+        position: absolute;
+        line-height: 3;
+        display: block;
+        transform: translateX(100%);
+        transition: all .5s ease;
+    }
+    .testimonial {
+    width: 90%;
+    margin: 50px auto;
+    padding-left: 250px;
+}
+}
+
+@media (max-width: 950px) {
+
+    .navbar .nav-item {
+        padding-right: 30px
+    }
+
+    .navbar .nav-item li a {
+        font-size: 14px;
+    }
+
+    .navbar {
+        width: 100%;
+        padding: 0px 20px 0px 0px;
+    }
+    .testimonial {
+        width: 90%;
+        margin: 50px auto;
+        padding-left: 250px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    section {
+      flex-direction: column;
+    }
+    .left, .right {
+      flex: auto;
+    }
+    .testimonial {
+    text-align: center;
+    padding: 0px;
+   }
+    .testimonial img{
+        width: 100%;
+    }
+  }
+
+@media (max-width: 550px) {
+
+    .content {
+        text-align: center;
+    }
+
+    .content h2 {
+        font-size: 18px;
+    }
+
+    .content h2 {
+        font-size: 16px;
+    }
+
+    .content p {
+        font-size: 14px;
+    }
+
+    button {
+        padding: 4px 26px;
+    }
+    .content-section p {
+        font-size: 17px;
+    }
+    .contact form .input-box input, .contact form textarea {
+        padding: 7px 30px;
+        font-size: 9px;
+        font-weight: 900;
+    }
+    .contact form .btn {
+    padding: 4px 20px;
+    border: none;
+    font-size: 12px;
+    font-weight: 700;
+    }
+    .text {
+        font-size: 15px;
+    }
+    .display{
+        display: none;
+    }
+    .none{
+        display: block;
+    }
+
+}
+
+@media (max-width: 450px) {
+
+.subscribe-box {
+    width: 80%;
+    min-width: 100%;
+}
+.content-section p {
+    font-size: 14px;
+}
+.card{
+    min-width: 90%;
+    margin: auto;
+}
+.acuity{
+    font-size: 25px;
+}
+.container .navbar .canary-img img {
+    height: 14vh;
+}
+.contact form .input-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.contact form{
+    padding: 20px;
+}
+.contact form .input-box input {
+    width: 100%;
+    padding: 7px 10px ;
+}
+section .content-image img {
+    width: 100%;
+    padding-top: 20px;
+}
+.container .navbar .canary-img img {
+    height: 12vh;
+}
+.map-1 {
+    
+    font-size: 13px;
+}
+}
+@media (max-width: 350px) {
+
+#mapbtn {
+   
+    width: 60%;
+}
+.embeded {
+    height: 40vh;
+    padding-top: 20px;
+}
+.navbar .hamburger li {
+    text-decoration: none;
+    font-size: 23px;
+}.navbar .hamburger li a {
+    font-size: 8px;
+
+}
+}
