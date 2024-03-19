@@ -422,6 +422,9 @@ button {
   .certified img{
     width: 100%;
   }
+  .none{
+    display: none;
+  }
   .contact-2 h2{
     text-align: center;
     font-size: 40px;
@@ -621,8 +624,6 @@ footer {
   font-size: 18px;
   font-weight: 500;
 }
-
-
 
 
 a.active
